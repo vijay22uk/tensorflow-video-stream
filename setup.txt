@@ -1,0 +1,15 @@
+Follow https://github.com/tensorflow/models/tree/master/research/object_detection
+
+
+each terminal
+# From tensorflow/models/research/
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+
+inside tensorflow directory
+change path to research/
+cd research/
+
+
+inside custom directory
+
+sudo pip install opencv-python
